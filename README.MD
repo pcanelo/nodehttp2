@@ -43,6 +43,10 @@ Verifica que los archivos `clave.privada` y `certificado.crt` estén en tu direc
     dir # En Windows
 ~~~
 
-## Paso 5: Usar en tu Aplicación Node.js
+Para correr la app
 
-Utiliza estos archivos en tu servidor HTTP/2 de Node.js. Asegúrate de referenciar correctamente su ubicación en tu código.
+~~~
+node server.js 
+~~~
+
+try en el browser https://localhost:3000/productos   o https://localhost:3000/productos?id=1
